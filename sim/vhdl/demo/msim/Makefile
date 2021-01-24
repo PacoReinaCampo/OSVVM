@@ -8,4 +8,4 @@ simulate:
 	vsim -c -do run.do work.AlertLog_Demo_Global
 
 clean:
-	rm -rf work
+	rm -rf work transcript

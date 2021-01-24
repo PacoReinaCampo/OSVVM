@@ -49,6 +49,7 @@ build:
 
 simulate:
 	xelab AlertLog_Demo_Global
+	xsim -R AlertLog_Demo_Global
 
 clean:
 	rm -rf .Xil *.dir *.jou *.log *.pb
