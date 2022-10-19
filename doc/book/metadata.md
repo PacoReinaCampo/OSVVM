@@ -1,6 +1,6 @@
 ---
 title: 'Open Source VHDL Verification Methodology'
-subtitle: 'QueenField'
+subtitle: 'QueenField ![](../../osvvm.svg){width=17cm}'
 
 author: Paco Reina Campo
 
