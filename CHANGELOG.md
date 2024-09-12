@@ -303,10 +303,10 @@ Update to usage of PercentCov in GetCov.
 ### ReportPkg.vhd 2021.10 
 Implements EndOfTestReports (was called EndOfTestSummary in 2021.09).
 EndOfTestReports calls 
-   - ReportAlerts from AlertPkg,
-   - WriteAlertSummaryYaml from AlertPkg to generate Build Report <build>.yml,
-   - WriteAlertYaml from AlertPkg to generate ./reports/<test>_alerts.yml
-   - WriteCovYaml from CoveragePkg to generate ./reports/<test>_cov.yml
+   * ReportAlerts from AlertPkg,
+   * WriteAlertSummaryYaml from AlertPkg to generate Build Report <build>.yml,
+   * WriteAlertYaml from AlertPkg to generate ./reports/<test>_alerts.yml
+   * WriteCovYaml from CoveragePkg to generate ./reports/<test>_cov.yml
 See the OSVVM scripts as the above YAML files are all automatically converted to HTML.
 Make sure to name your tests with AlertLogPkg.SetAlertLogName as that is where the 
 above "<test>" comes from.   
